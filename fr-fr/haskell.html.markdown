@@ -10,12 +10,12 @@ idioma: Fr-Es
 nombre de archivo: learnhaskell-fr.hs
 ---
 
-Haskell a été conçu pour être un langage fonctionnel pur et maniable. Il est connu pour ses monades et son système de types, mais je n'ai cesse d'y revenir pour son élégance. Pour moi, Haskell fait de la programmation une joie.
+Haskell fue diseñado como lenguaje de programación funcional práctico y puro. Es famoso por sus mónadas y su sistema de tipos, pero siempre regreso a él debido a su elegancia. Haskell hace la codificación una verdadera alegría para mí.
 
 ```haskell
--- Un commentaire en une ligne commence avec deux tirets.
-{- Un commentaire sur plusieurs lignes peut être contenu dans
-un bloc de cette façon.
+-- Para comentar una sola línea utiliza dos guiones.
+{- Para comentar múltiples líneas puedes encerrarlas
+en un bloque como este.
 -}
 
 ----------------------------------------------------
