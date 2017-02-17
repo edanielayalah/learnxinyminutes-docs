@@ -33,14 +33,14 @@ stdout.writeln( "Esta es la impresion estandar, al igual que writeln() hace lo m
 stderr.writeln( "esto lleva al error estandar" );
 
 
-// Variables don't have to be explicitly typed as long as
-// the compiler can figure out the type that it will hold.
-var myVar = 10; // 10 is an int, so myVar is implicitly an int
+// No tienes que definir el tipo de las Variables mientras escribes
+// el compilador puede averiguar el tipo que mantendra
+var myVar = 10; // 10 es un entero, asi myVar es implicitamente un int
 myVar = -10;
 var mySecondVar = myVar;
-// var anError; // this would be a compile-time error.
+// var anError; // Esto seria un error de tiempo de compilacion
 
-// We can (and should) explicitly type things
+// Podemos y debemos escribir implicitamente las cosas
 var myThirdVar: real;
 var myFourthVar: real = -1.234;
 myThirdVar = myFourthVar;
